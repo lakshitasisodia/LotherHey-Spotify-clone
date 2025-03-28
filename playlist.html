@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lotherhey - Spotify Clone : Playlist section</title>
+    <link rel="stylesheet" href="./css/playlist.css">
+    <link rel="stylesheet" href="./css/utility.css">
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/leftside.css">
+    <link rel="stylesheet" href="./css/playbar.css">
+    <link rel="stylesheet" href="./css/rightside.css">
+</head>
+<body>
+    <nav class="flex jcentre align">
+        <div class="navmain flex align jbetween">
+          <div class="navfirstpart flex jevenly align">
+            <div class="images flex justify align">
+              <a href="./playlist.html"><img role="button" src="./images/logo.svg" style="background: none" alt="" /></a>
+              <a href="./index.html">
+                <div class="con lightbachgournd">
+                  <img role="button" src="./images/home.svg" alt="" />
+                </div>
+              </a>
+            </div>
+            <div class="searchbar flex jbetween align lightbachgournd">
+              <div class="firstpart flex jevenly align">
+                <img src="./images/search.svg" alt="" />
+                <input type="text" placeholder="Wanna play something?" />
+                <div class="showen">Ctrl + K</div>
+              </div>
+              <div class="secondpart flex jcentre align">
+                | <img src="./images/folder.svg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="navsecondpart flex justify align">
+            <div class="installtab flex jcentre align">
+              <button type="button" class="buttonone flex jcentre align">
+                Explore Premium
+              </button>
+              <button type="button" class="buttontwo flex jcentre align">
+                <img src="./images/notification.svg" alt="" />
+              </button>
+              <button type="button" class="buttontwo flex jcentre align">
+                <img src="./images/threelinebar.svg" alt="" />
+              </button>
+            </div>
+          </div>
+        </div>
+    </nav>
+    <div class="playlistholder flex align column jcentre">
+        <div class="heading flex align jcentre">Songs we have !!!</div>
+        <div class="songsholder flex column align justify">
+            <div class="songList">
+                <ol class="flex column"></ol>
+            </div>
+        </div>
+    </div>
+    <div class="playbar flex column align jcentre">
+      <div class="playbuttonholder flex jcentre">
+        <div id="songinfoholderone" class="songinfoholder flex column align justify">
+          <div class="songinfo"></div>
+        </div>
+        <div class="buttonplayer flex align justify">
+          <div role="button" class="playhandlers rewind">
+            <img src="./images/rewind-button.png" alt="">
+          </div>
+          <div role="button" class="playhandlers pausebutton">
+            <img src="./images/play-button-arrowhead.png" alt="">
+          </div>
+          <div role="button" class="playhandlers forward">
+            <img src="./images/forward-button.png" alt="">
+          </div>
+        </div>
+        <div class="songinfoholder flex align justify">
+          <div class="songtime">00:00 / 00:00</div>
+        </div>
+      </div>
+      <div class="seekbarbutton flex align jcentre">
+        <div class="seekbarball"></div>
+        <div class="seekbar"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

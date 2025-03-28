@@ -1,0 +1,62 @@
+.heading
+{
+    height: 10vh;
+    width: 90vw;
+    margin: auto;
+    top: 0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: #252525;
+    font-size: x-large;
+    font-weight: bold;
+border-radius: 2rem;
+}
+.playlistholder
+{
+    height: 100vh;
+  
+
+}
+
+.songsholder
+{
+    height: 80vh;
+    width: 90vw;
+    background-color: #252525;
+    border-radius: 2rem;
+    overflow-y: hidden;
+}
+.songList{
+    height: 90%;
+    width: 90%;
+    gap: 1rem;
+}
+.info
+{
+    gap: 0.5rem;
+}
+.songList ol li {
+    list-style-type: decimal;
+    padding: 1% 2%;
+    margin: 1% 0;
+    gap: 1rem;
+    width: 40%;
+    border: 1px solid white;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+.songList ol li img{
+    filter: invert(1);
+    height: 70%;
+}
+
+
+@media (max-width: 599px) {
+    .songList ol li {
+        width: 95%;
+      margin: 3.5% 0;
+      border-radius: 0.5rem;
+      padding: 3% 2%;
+    }
+
+}

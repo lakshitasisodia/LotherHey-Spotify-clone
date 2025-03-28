@@ -1,0 +1,196 @@
+nav {
+    width: 100vw;
+    height: 4.5rem;
+}
+
+.navmain {
+    width: 90vw;
+    height: 100%;
+}
+.buttontwo
+{
+    width: 20%;
+}
+.installtab
+{
+    height: 100%;
+    width: 100%;
+
+}
+.buttonone{
+    background-color: white;
+    color: black;
+    width: 65%;
+    height: 70%;
+    border-radius: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.buttonone:hover{
+    color: black;
+    font-weight: bold;
+    font-size: medium;
+}
+nav .buttonone, button {
+    transition: transform 0.2s ease-in-out; 
+}
+
+.buttonone:hover {
+    transform: scale(1.03);
+}
+ button:hover
+ {
+    transform: scale(1.2);
+ }
+nav img, .searchbar {
+    height: 2rem;
+    background-color: #1f1f1f;
+}
+
+.searchbar input, .searchbar img {
+    margin: 0; 
+}
+
+.searchbar {
+
+    margin-top: 0.1rem;
+    padding-left: 1rem;
+    padding-right: 1rem; 
+    width: 80%;
+    height: 90%;
+    font-size: 2rem;/* Added padding to prevent shrinking */
+}
+
+.firstpart {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem; /* Adjust spacing between input and icon */
+}
+.secondpart {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    gap: 0.5rem; 
+    font-size: large;
+}
+button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    background: black;
+    color: rgba(255, 255, 255, 0.87);
+}
+
+nav button {
+    margin-left: 2rem;
+    height: 3rem;
+}
+
+button img, button text {
+    height: 50%;
+    background-color: black;
+}
+
+.images {
+    width: 25%;
+}
+
+input {
+    border: none;
+    outline: none;
+    background: none;
+    box-shadow: none;
+    width: 90%;
+    color: white;
+    
+    margin: 0;
+}
+
+.searchbar .firstpart img {
+    width: 8%;
+}
+.searchbar .secondpart img {
+    width: 60%;
+    
+}
+.navfirstpart {
+    width: 45%;
+}
+
+.navsecondpart {
+    height: 100%;
+    width: 30%;
+}
+.showen {
+    width: 0;
+    visibility: collapse;
+}
+
+.con{
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (min-width: 600px) and (max-width: 1024px)
+{
+    .navfirstpart {
+        width: 55%;
+    }
+   
+    .navsecondpart {
+        height: 100%;
+        width: 40%;
+    }
+}
+@media (max-width: 599px) {
+    .navmain {
+        width: 97vw;
+        margin: auto;
+        top: 0;
+    }
+    .navfirstpart {
+        width: 100vw;
+        justify-content: space-between;
+    }
+    .navsecondpart {
+       visibility: collapse;
+       width: 0;
+    }
+    .searchbar {
+        width: 75%;
+        height: 50%;
+        margin-top: 0.5rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem; /* Ensure padding in mobile view */
+    }
+   
+    .searchbar .firstpart img {
+        width: 10%;
+    }
+    .searchbar .secondpart img {
+        width: 40%;
+    }
+    .searchbar .firstpart {
+        width: 80%;
+    }
+    .searchbar .secondpart {
+       width: 20%;
+    }
+    input {
+        font-size: smaller;
+        margin: 0;
+        width: 90%;
+
+    }
+    .images {
+        width: 30%;
+    }
+    nav img {
+        height: 1.5rem;
+    }
+}

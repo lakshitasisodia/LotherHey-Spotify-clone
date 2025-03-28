@@ -1,0 +1,168 @@
+.container {
+    height: calc(100vh - 4.8rem); /* Full height minus navbar */
+    display: flex;
+    width: 100%;
+}
+
+.left {
+    height: 100%;
+    background-color: #161616;
+    border-radius: 1.5rem;
+    margin-left: 0.5%;
+    overflow: hidden;
+}
+
+.left {
+    width: 25%;
+}
+
+
+.left header {
+    height: 5%;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.leftheading {
+    width: 100%;
+}
+
+.leftheading img {
+    width: auto;
+    max-width: 6%; /* Avoids being too small */
+}
+
+.left main {
+    height: 65%;
+}
+
+.mainboxholderbody {
+    height: 100%;
+    width: 100%;
+
+}
+
+
+.box {
+    height: 47%;
+    width: 92%;
+padding: 1rem;
+border-radius: 0.5rem;
+background-color: #1f1f1f;
+}
+.boxwritting
+{
+    height: 70%;
+    margin: 0.5rem;
+}
+.mainboxholderbody button
+{
+    align-self: flex-start;
+    background-color: white;
+    color: black;
+    font-weight: 700;
+     height: 2rem;
+     width: 10rem;
+     border-radius: 2rem;
+     margin-left: 0.5rem;
+     
+}
+.boxsecond
+{
+    height: 50%;
+    width: 92%;
+padding: 1rem;
+border-radius: 0.5rem;
+background-color: #1f1f1f;
+
+}
+.buttonholder
+{
+    height: 40%;
+}
+.mainboxholderbody button:hover
+{
+cursor: pointer;
+transform: scale(1.05);
+}
+.left footer {
+    height: 30%;
+}
+
+.footercontainer
+{
+    height: 100%;
+}
+
+.footerwritting
+{
+    height: 60%;
+    margin-top: 0.1rem;
+}
+
+.footerwritting li
+{
+    font-size: small;
+   color: rgba(199, 198, 198, 0.836);
+   margin-left: 4%;
+  margin-right: 4%;
+  margin-bottom: 0.5%;
+   cursor: pointer;
+   list-style: none;
+}
+.footerbuttonholder
+{
+    height: 40%;
+    width: 100%;
+
+}
+.footerbuttonholder button
+{
+    height: 70%;
+    width: 8rem;
+    border: 1px solid white;
+    border-radius: 2rem;
+    margin: auto;
+    top: 0;
+}
+.footerbuttonholder button:hover
+{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.footerbuttonholder button img{
+    width: 1.5rem;
+}
+.default-cookies
+{
+    margin: 1rem;
+    align-self: flex-start;
+}
+.default-cookies:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+@media (min-width: 849px) and (max-width: 1024px) {
+    .left
+    {
+        width: 30%;
+        height: 100%;
+        align-self: flex-start;
+    }
+    .mainboxholderbody button
+{
+   
+     width: 9rem;
+    
+     
+}
+
+}
+@media (max-width: 850px){
+    .left
+    {
+        visibility: collapse;
+        width: 0;
+    }
+}

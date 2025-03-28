@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lotherhey - Spotify Clone: Web Player,Music for everyone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+ 
+    <link rel="stylesheet" href="./css/navbar.css" />
+    <link rel="stylesheet" href="./css/utility.css" />
+    <link rel="stylesheet" href="./css/leftside.css" />
+    <link rel="stylesheet" href="./css/rightside.css">
+    <link rel="stylesheet" href="./css/playbar.css">
+  </head>
+  <body>
+
+    <nav class="flex jcentre align">
+      <div class="navmain flex align jbetween">
+        <div class="navfirstpart flex jevenly align">
+          <div class="images flex justify align">
+            <a href="./playlist.html"><img role="button" src="./images/logo.svg" style="background: none" alt="" />
+            </a>
+            <a href="./index.html">
+              <div  class="con lightbachgournd">
+                <img role="button" src="./images/home.svg" alt="" />
+              </div>
+            </a>
+          </div>
+          <div class="searchbar flex jbetween align lightbachgournd">
+            <div class="firstpart flex jevenly align">
+              <img src="./images/search.svg" alt="" />
+              <input type="text" placeholder="Wanna play something?" />
+              <div class="showen">Ctrl + K</div>
+            </div>
+            <div class="secondpart flex jcentre align">
+              | <img src="./images/folder.svg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="navsecondpart flex justify align">
+          <div class="installtab flex jcentre align">
+            <button type="button" class="buttonone flex jcentre align">
+              Explore Premium
+            </button>
+            <button type="button" class="buttontwo flex jcentre align">
+              <img src="./images/notification.svg" alt="" />
+            </button>
+            <button type="button" class="buttontwo flex jcentre align">
+              <img src="./images/threelinebar.svg" alt="" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container flex justify align">
+      <div class="left column jcentre border">
+        <header>
+          <div class="leftheading flex align jbetween">
+            Your Library
+            <img src="./images/plus.svg" alt="" />
+          </div>
+        </header>
+        <main>
+          <div class="mainboxholderbody flex align column justify">
+            <div class="box flex column jbetween ">
+              <div class="boxwritting flex column ">
+                <div class="boxoneheading"><h1>Create your first playlist</h1></div>
+                <div class="boxtwoheading">It's easy,we'll help</div>
+              </div>
+              <div class="buttonholder">
+                <a href="./playlist.html">
+                  <button>Create playlist</button>
+              </a>
+              </div>
+            </div>
+            <div class="boxsecond flex column jbetween ">
+              <div class="boxwritting flex column ">
+                <div class="boxoneheading"><h1>Let's find some podscasts</h1></div>
+                <div class="boxtwoheading">We'll will keep you updated</div>
+              </div>
+              <div class="buttonholder">
+
+                <button>Browse podscast</button>
+              </div>
+            </div>
+        
+        </main>
+        <footer >
+          <div class="footercontainer flex column align jcentre">
+            <div class="footerwritting flex column align jcentre">
+              <ul class="flex align jcentre wrap">
+                <li role="button">Legal</li>
+                <li role="button">Safety&PrivacyCentre</li>
+                <li role="button">Privacy Policy</li>
+                <li role="button">Cookies</li>
+                <li role="button">About Ads</li>
+                <li role="button">Accessibility</li>
+              </ul>
+              <div class="default-cookies" role="button"><h6>Cookies</h6></div>
+            </div>
+            <div class="footerbuttonholder">
+              <button type="button" class="flex align jcentre">
+                <img src="./images/world.svg" alt=""> 
+                English
+              </button>
+            </div>
+          </div>
+        </footer>
+      </div>
+      <div class="right border">
+        <div class="rightcontainer flex column justify">
+          <h1>Spotify Playlist</h1>
+          <div class="cardholder flex wrap">
+            <div role="button"  class="card flex column jbetween">
+              <div class="playbutton flex align jcentre">
+                <div class="playimg flex align jcentre">
+                  <img role="button" src="./images/play-button-arrowhead.png" alt="">
+                  
+                </div> </div>
+                    <img role="button" src="./images/OUR OWN PLAYLIST.png" class="flex align jcentre">
+                  
+                  <div class="cardwritting">
+              
+                    <p>Our own playlist - A small list of songs accumulated by us</p>
+    
+                  </div>
+                </div>
+
+            
+            <div role="button" class="card flex column jbetween">
+              <div class="playbutton flex align jcentre">
+               <div class="playimg flex align jcentre">
+                <img src="./images/play-button-arrowhead.png" alt="">
+              
+              </div> </div>
+              <img src="./photos/first.jpg" alt="">
+              <div class="cardwritting">
+          
+                <p>With Sachin-Jigar, Mithoon, Jeet Gannguli and more</p>
+
+              </div>
+            </div>
+            <div role="button"  class="card flex column jbetween">
+              <div class="playbutton flex align jcentre">
+                <div class="playimg flex align jcentre">
+                  <img src="./images/play-button-arrowhead.png" alt="">
+                
+                </div> </div>
+              <img src="./photos/second.jpg" alt="">
+              <div class="cardwritting">
+                
+                <p>With Karan Aujla, Shubh, Badshah and more</p>
+
+              </div>
+            </div>
+            <div role="button"  class="card flex column jbetween">
+              <div class="playbutton flex align jcentre">
+                <div class="playimg flex align jcentre">
+                  <img src="./images/play-button-arrowhead.png" alt="">
+                
+                </div>  </div>
+              <img src="./photos/fifth.jpg" alt="">
+              <div class="cardwritting">
+                <p>With Mohammed Rafi, Mukesh, Asha Bhosle and more</p>
+
+              </div>
+            </div>
+            <div  role="button" class="card flex column jbetween">
+              <div class="playbutton flex align jcentre">
+                <div class="playimg flex align jcentre">
+                  <img src="./images/play-button-arrowhead.png" alt="">
+                
+                </div> </div>
+              <img src="./photos/sixth.jpg" alt="">
+              <div class="cardwritting">
+                
+                <p>With A.R. Rahman, Vishal-Shekhar, Atif Aslam and more</p>
+
+              </div>
+            </div>
+            <div  role="button" class="card flex column jbetween">
+              <div class="playbutton flex align jcentre">
+                <div class="playimg flex align jcentre">
+                  <img src="./images/play-button-arrowhead.png" alt="">
+                
+                </div> </div>
+              <img src="./photos/third.jpg" alt="">
+              <div class="cardwritting">
+                
+                <p>Your weekly update of the most played tracks right now - Global.</p>
+
+              </div>
+            </div>
+            <div  role="button" class="card flex column jbetween">
+              <div class="playbutton flex align jcentre">
+                <div class="playimg flex align jcentre">
+                  <img src="./images/play-button-arrowhead.png" alt="">
+                
+                </div>  </div>
+              <img src="./photos/fourth.jpg" alt="">
+              <div class="cardwritting">
+                
+                <p>Your weekly update of the most played tracks right now - India.</p>
+
+              </div>
+            </div>
+             
+      
+           
+          
+          
+            
+          </div>
+        </div>
+       
+      </div>
+    </div>
+
+  <script src="script.js"></script>
+  </body>
+</html>
+
+
+
