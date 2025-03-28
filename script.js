@@ -32,7 +32,7 @@ let pause = document.querySelector('.pausebutton img'); // ✅ Select the <img>,
 
 async function getsongs() {
     try {
-        let a = await fetch("http://192.168.29.12:3000/songs/");
+        let a = await fetch("./songs/");
         let response = await a.text();
         let divs = document.createElement("div");
         divs.innerHTML = response;
